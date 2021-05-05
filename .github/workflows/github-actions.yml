@@ -1,4 +1,4 @@
-name: Example Github Actions
+name: Build
 on:
   push:
     branches:
