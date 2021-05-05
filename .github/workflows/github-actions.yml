@@ -1,11 +1,12 @@
 name: Build
 on:
+  workflow_dispatch:
   push:
     branches:
-      - $default-branch
+      - main
   pull_request:
     branches:
-      - $default-branch
+      - main
 jobs:
   ui-checks:
     runs-on: ubuntu-latest
