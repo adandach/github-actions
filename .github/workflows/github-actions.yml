@@ -2,10 +2,10 @@ name: Build
 on:
   push:
     branches:
-      - main
+      - $default-branch
   pull_request:
     branches:
-      - main
+      - $default-branch
 jobs:
   ui-checks:
     runs-on: ubuntu-latest
